@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# TODO: заменить домен на финальный домен клиентки перед релизом
+Sitemap: https://tatiana-pmu.md/sitemap.xml
+

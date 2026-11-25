@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO: заменить базовый домен https://tatiana-pmu.md на финальный домен клиентки -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://tatiana-pmu.md/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://tatiana-pmu.md/services/</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://tatiana-pmu.md/portfolio/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tatiana-pmu.md/about/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tatiana-pmu.md/booking/</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://tatiana-pmu.md/privacy/</loc>
+    <priority>0.3</priority>
+  </url>
+</urlset>

@@ -1,0 +1,60 @@
+:root {
+  /* Velour exact color tokens */
+  --bg-cream: #e1d5c5;
+  --bg-sand: #d8c9b5;
+  --bg-ivory: #efe7dc;
+  --bg-white: #ffffff;
+  --bg-dark: #351018;
+  --bg-deep: #22090e;
+
+  --ink-dark: #351018;
+  --ink-deep: #22090e;
+  --ink-wine: #5e2a33;
+  --ink-muted: #5a4446;
+  --ink-on-dark: #f7efe6;
+  --ink-on-dark-muted: #dfcfc4;
+
+  --border-warm: #cdbba4;
+  --border-stone: #c2ae96;
+  --taupe-accent: #bfa58f;
+  --champagne-hl: #e8d5c0;
+  --border-subtle: rgba(53, 16, 24, 0.12);
+  --border-light: rgba(247, 239, 230, 0.2);
+
+  --cta-gradient: linear-gradient(135deg, #5e2a33 0%, #351018 100%);
+  --cta-gradient-hover: linear-gradient(135deg, #8c3640 0%, #5c141b 100%);
+  --glass-dark: rgba(34, 9, 14, 0.78);
+
+  /* Mineral pigment palette (client request: pigment swatches & soft gradients) */
+  --pigment-gradient: linear-gradient(
+    90deg,
+    #3b2823 0%,
+    #6f4b3b 22%,
+    #8e6e58 44%,
+    #b67b7d 68%,
+    #8c3f4d 86%,
+    #262326 100%
+  );
+
+  /* Typography */
+  --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Exact Velour radii & proportions */
+  --radius-hero: 32px;
+  --radius-card-lg: 28px;
+  --radius-card: 20px;
+  --radius-thumb: 18px;
+  --radius-input: 14px;
+  --radius-pill: 999px;
+
+  --container-max: 1280px;
+  --container-pad: clamp(16px, 2.8vw, 36px);
+
+  /* Velour motion curves */
+  --ease-velour: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-coverflow: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-btn: cubic-bezier(0.44, 0, 0.56, 1);
+  --shadow-active-pill: 0 12px 30px rgba(53, 16, 24, 0.12);
+  --shadow-coverflow: 0 30px 60px rgba(0, 0, 0, 0.45);
+}
